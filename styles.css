@@ -1,0 +1,96 @@
+ html{
+                width: 412px;
+            }
+            .header{
+                height: 80px;
+                width: 412px;
+                background-color: #EFD896;
+                display: flex;
+                justify-content: space-between;
+            }
+            .menu{
+                display: flex;
+                justify-content: center;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .menubtn{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 100px;
+                height: 40px;
+                border-radius: 14px;
+            }
+            .menuRow1{
+                display: flex;
+                justify-content: space-around;
+                padding-bottom: 5px;
+            }
+            .menuRow2{
+              display: flex;
+              justify-content: space-around; 
+              padding-bottom: 15px; 
+            }
+            .veganBurger{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 125px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            .chickenBurger{
+                cursor: pointer;
+                background-color: #DAD0AA;
+                width: 125px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            .hamburger{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 112px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            .fingerFood{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 114px;
+                height: 40px;
+                border-radius: 5px;
+            }
+             .beverages{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 102px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            .dessert{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
+            }
+            .searchBar{
+                height: 40px;
+                width: 312px;
+                background-color: #EFD896;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                border-radius: 12px;
+            }
+            img.searchicon{
+                display: flex;
+                justify-content: space-between;
+                width: 25px;
+                height: 25px;
+                padding-right: 5px;
+                padding-left: 5px;
+            }
+            .searchtext{
+                display: flex;
+                justify-content: space-between;
+            }
