@@ -94,3 +94,7 @@
                 display: flex;
                 justify-content: space-between;
             }
+            .searchSection{
+                display: flex;
+                justify-content: space-between;
+            }
