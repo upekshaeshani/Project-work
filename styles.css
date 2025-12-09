@@ -1,206 +1,214 @@
             @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+            .whole{
+                background-color: #53390A;
+                font-family: "Sunshiney", cursive;
+            }
             .header{
                 background-color: #EFD896;
                 display: flex;
                 justify-content: space-between;
             }
             .logo{
-                width: 402px;
-                height: 152px;
+                width: 201px;
+                height: 76px;
             }
             .profile{
-                width: 148px;
-                height: 140px;
+                width: 74px;
+                height: 70px;
             }
             .menu{
                 display: flex;
                 justify-content: space-between;
-                padding-top: 20px;
-                padding-bottom: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
             img.back{
-                width: 80px;
-                height: 80px;
+                width: 40px;
+                height: 40px;
             }
             img.next{
-                width: 80px;
-                height: 80px;
+                width: 40px;
+                height: 40px;
             }
             .menubtn{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 200px;
-                height: 90px;
-                border-radius: 28px;
-                font-size: 48px;
-                font-family: "Sunshiney", cursive;
+                width: 100px;
+                height: 40px;
+                border-radius: 14px;
+                font-size: 24px;
             }
             .menuRow1{
                 display: flex;
                 justify-content: space-around;
-                padding-bottom: 10px;
+                padding-bottom: 5px;
+                font-size: 20px;
             }
             .menuRow2{
               display: flex;
               justify-content: space-around; 
-              padding-bottom: 30px; 
+              padding-bottom: 15px; 
+              font-size: 20px;
             }
             .veganBurger{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 280px;
-                height: 90px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 125px;
+                height: 40px;
+                border-radius: 5px;
             }
             .chickenBurger{
                 cursor: pointer;
                 background-color: #DAD0AA;
-                width: 320px;
-                height: 90px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 140px;
+                height: 40px;
+                border-radius: 5px;
             }
             .hamburger{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 230px;
-                height: 90px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 112px;
+                height: 40px;
+                border-radius: 5px;
             }
             .fingerFood{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 320px;
-                height: 90px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 114px;
+                height: 40px;
+                border-radius: 5px;
             }
              .beverages{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 220px;
-                height: 80px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 102px;
+                height: 40px;
+                border-radius: 5px;
             }
             .dessert{
                 cursor: pointer;
                 background-color: #EFD896;
-                width: 230px;
-                height: 90px;
-                border-radius: 10px;
-                font-size: 40px;
-                font-family: "Sunshiney", cursive;
+                width: 100px;
+                height: 40px;
+                border-radius: 5px;
             }
             .searchBar{
-                height: 80px;
-                width: 650px;
+                height: 40px;
+                width: 312px;
                 background-color: #EFD896;
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
-                border-radius: 24px;
+                border-radius: 12px;
             }
             img.searchicon{
                 display: flex;
                 justify-content: space-between;
-                width: 50px;
-                height: 50px;
-                padding-right: 10px;
-                padding-left: 10px;
+                width: 25px;
+                height: 25px;
+                padding-right: 5px;
+                padding-left: 5px;
             }
             .searchtext{
                 display: flex;
                 justify-content: space-between;
-                font-size: 30px;
-                font-family: "Sunshiney", cursive;
+                font-size: 16px;
             }
             .searchSection{
                 display: flex;
                 justify-content: space-around;
-                padding-bottom: 40px;
+                padding-bottom: 20px;
             }
             img.filter{
                 display: flex;
                 justify-content: space-around;
-                width: 80px;
-                height: 80px;
-            }
-            .card-row{
-                display: flex;
-                justify-content: space-between;
+                width: 40px;
+                height: 40px;
             }
             .card{
-                width: 310px;
-                height: 530px;
-                padding-left: 10px;
-                border-top-left-radius: 10px;
-                border-top-right-radius: 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                margin-left: 10px;
             }
             .card-img-top{
-                width: 310px;
-                height: 264px;
+                width: 155px;
+                height: 132px;
                 display: block;
             }
             .card-body{
                 background-color: #EFD896;
-                width: 310px;
-                height: 200px;
-                border-bottom-left-radius: 10px;
-                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
                 display: flex;
                 flex-direction: column;
+                padding: 0 !important;
 
             }
             .card-title{
-               font-size: 40px;
-               font-family: "Sunshiney", cursive; 
-               padding-left: 10px;
+               font-size: 16px;
+               padding-left: 5px;
+               display: flex;
+               justify-content: center;
             }
             .card-text{
                 display: flex;
                 justify-content: space-between;
-                padding-bottom: 0px;
                 margin-top: auto;
             }
             .price{
-                font-size: 35px;
-                font-family: "Sunshiney", cursive;
+                font-size: 14px;
             }
             .rating{
                 display: flex;
                 justify-content: center;
-                padding-top: 10px;
             }
             img.star{
-                width: 24px;
-                height: 24px;
+                width: 12px;
+                height: 12px;
                 padding-right: 5px;
             }
             .rate{
-                font-size: 20px;
-                font-family: "Sunshiney", cursive;
+                font-size: 12px;
             }
             img.heart{
-                width: 40px;
-                height: 40px;
+                width: 20px;
+                height: 20px;
             }
             .AddtoCart{
                 display: flex;
-                justify-content: space-around;
-                width: 130px;
-                height: 40px;
-                border-bottom-right-radius: 10px;
-                border-top-left-radius: 10px;
-                font-size: 20px;
+                justify-content: space-between;
+                width: 70px;
+                height: 20px;
+                border-bottom-right-radius: 5px;
+                border-top-left-radius: 5px;
+                font-size: 12px;
                 color: white;
                 background-color: black;
-                font-family: "Sunshiney", cursive;
+            }
+            .catagories{
+                display: flex;
+                flex-direction: column;
+                margin-right: 10px;
+            }
+            .catagory1{
+                display: flex;
+                justify-content: space-between;
+            }
+             .catagory2{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+             .catagory3{
+                display: flex;
+                justify-content: space-between;
+            }
+            .footer{
+                background-color: #EFD896;
+                margin-top: 10px;
+                margin-bottom: 0px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
             }
