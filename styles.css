@@ -1,4 +1,23 @@
             @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+.catagories {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, 2fr); /* mobile: 2 columns */
+}
+
+/* Desktop: show all 6 cards in one row */
+@media (min-width: 768px) {
+  .catagories {
+    grid-template-columns: repeat(6, 1fr); /* 6 columns, one card per column */
+    gap: 20px;
+  }
+
+  /* ensure each card fills its grid cell */
+  .catagories .card {
+    width: 100%;
+    margin: 10px;
+  }
+}
             .whole{
                 background-color: #53390A;
                 font-family: "Sunshiney", cursive;
@@ -30,8 +49,7 @@
                 width: 40px;
                 height: 40px;
             }
-            .menubtn{
-                cursor: pointer;
+            .menulbl{
                 background-color: #EFD896;
                 width: 100px;
                 height: 40px;
@@ -92,47 +110,39 @@
                 height: 40px;
                 border-radius: 5px;
             }
-            .searchBar{
-                height: 40px;
-                width: 312px;
-                background-color: #EFD896;
-                display: flex;
-                justify-content: flex-start;
-                align-items: center;
-                border-radius: 12px;
+            .searchSection {
+            display: flex;
+            align-items: center;
+            margin: 20px;
             }
-            img.searchicon{
-                display: flex;
-                justify-content: space-between;
-                width: 25px;
-                height: 25px;
-                padding-right: 5px;
-                padding-left: 5px;
+            .searchBar {
+            display: flex;
+            align-items: center;
+            background-color: #EFD896;
+            padding: 10px 14px;
+            border-radius: 12px;
+            flex: 1;
             }
-            .searchtext{
-                display: flex;
-                justify-content: space-between;
-                font-size: 16px;
+
+            .searchicon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
             }
-            .searchSection{
-                display: flex;
-                justify-content: space-around;
-                padding-bottom: 20px;
+            .searchInput {
+            border: none;
+            background: transparent;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
             }
-            img.filter{
-                display: flex;
-                justify-content: space-around;
-                width: 40px;
-                height: 40px;
-            }
-            .card{
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
-                margin-left: 10px;
+
+            .filtericon img {
+            width: 40px;
+            height: 40px;
+            margin-left: 12px;
             }
             .card-img-top{
-                width: 155px;
-                height: 132px;
                 display: block;
             }
             .card-body{
@@ -185,25 +195,6 @@
                 color: white;
                 background-color: black;
             }
-            .catagories{
-                display: flex;
-                flex-direction: column;
-                margin-right: 10px;
-            }
-            .catagory1{
-                display: flex;
-                justify-content: space-between;
-            }
-             .catagory2{
-                display: flex;
-                justify-content: space-between;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-             .catagory3{
-                display: flex;
-                justify-content: space-between;
-            }
             .footer{
                 background-color: #EFD896;
                 margin-top: 10px;
@@ -212,3 +203,39 @@
                 justify-content: space-around;
                 align-items: center;
             }
+/*description page style*/ 
+            .pnamebtn{
+                cursor: pointer;
+                background-color: #EFD896;
+                width: 230px;
+                height: 40px;
+                border-radius: 14px;
+                font-size: 24px;
+            }
+            .crunch{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 10px;
+            }
+             .addBar{
+                display: flex;
+                justify-content: center;
+                border-radius: 5px;
+             }
+             .addicon{
+                display: flex;
+                justify-content: space-between;
+                background-color: #EFD896;
+                padding-left: 10px;
+                padding-right: 20px;
+             }
+             .add{
+                width: 26px;
+                background-color: #EFD896;
+                padding-right: 10px;
+             }
+             .tag{
+                display: flex;
+                align-items: center;
+                padding: 10px;
+             }
