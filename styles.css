@@ -3,6 +3,7 @@
   display: grid;
   gap: 14px;
   grid-template-columns: repeat(2, 2fr); /* mobile: 2 columns */
+  margin: 10px;
 }
 
 /* Desktop: show all 6 cards in one row */
@@ -14,14 +15,15 @@
 
   /* ensure each card fills its grid cell */
   .catagories .card {
-    width: 100%;
     margin: 10px;
+    width: 100%;
   }
 }
             .whole{
                 background-color: #53390A;
                 font-family: "Sunshiney", cursive;
-            }
+                width: 100%;
+            }            
             .header{
                 background-color: #EFD896;
                 display: flex;
@@ -123,7 +125,6 @@
             border-radius: 12px;
             flex: 1;
             }
-
             .searchicon {
             width: 20px;
             height: 20px;
@@ -152,7 +153,6 @@
                 display: flex;
                 flex-direction: column;
                 padding: 0 !important;
-
             }
             .card-title{
                font-size: 16px;
@@ -203,9 +203,12 @@
                 justify-content: space-around;
                 align-items: center;
             }
+            .cart{
+                width: 68px;
+                height: 68px;
+            }
 /*description page style*/ 
             .pnamebtn{
-                cursor: pointer;
                 background-color: #EFD896;
                 width: 230px;
                 height: 40px;
@@ -215,27 +218,148 @@
             .crunch{
                 display: flex;
                 justify-content: center;
+            }
+            .crunchImage{
+                width: 245px;
+                height: 226px;
+                border-radius: 14px;
                 padding-bottom: 10px;
             }
-             .addBar{
+            .qty-container {
                 display: flex;
                 justify-content: center;
-                border-radius: 5px;
-             }
-             .addicon{
-                display: flex;
-                justify-content: space-between;
-                background-color: #EFD896;
-                padding-left: 10px;
-                padding-right: 20px;
-             }
-             .add{
-                width: 26px;
-                background-color: #EFD896;
-                padding-right: 10px;
-             }
-             .tag{
+                width: 100%;
+            }
+            .qty-bar {
                 display: flex;
                 align-items: center;
+                justify-content: space-between;
+                align-content: center;
+                background-color: #EFD896;   
+                padding: 8px 12px;
+                border-radius: 12px;
+                width: 100%;
+                max-width: 240px; 
+                gap: 10px;
+                box-sizing: border-box;
+                border: solid;
+            }
+            .qty-btn {
+                width: 28px;
+                height: 28px;
+                background-color: #D9D9D9;
+                border: solid;
+                font-size: 20px;
+                font-weight: bold;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .qty-value {
+                font-size: 18px;
+                font-weight: bold;
+                min-width: 20px;
+                text-align: center;
+            }
+            .qty-price {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: auto; 
+            }
+            .details{
+                margin: 10px;
+                color: #EFD896;
+            }
+/*shopping cart page style*/
+            .cartbtn{
+                background-color: #EFD896;
+                width: 165px;
+                height: 40px;
+                border-radius: 14px;
+                font-size: 24px;
+            }
+            .arrow{
+                background-color: #EFD896 !important;
+                border-color: #EFD896!important;
+            }
+            .arrow::after{
+                border-top-color: black !important;
+            }
+            .cart-list{
+                width: 100%;
+            }
+            .scardContent{
+                display: flex;
+                margin: 10px;
+                width: 385px;
+                height: 120px;
+            }
+            .scardDetails{
+                background-color: #EFD896;
+                border-top-right-radius: 20px;
+                border-bottom-right-radius: 20px;
+                display: flex;
+                flex-direction: row;
                 padding: 10px;
-             }
+            }
+            .qty-bar2{
+                display: flex;
+                justify-items: flex-end;
+                align-items: end;
+            }
+            .scardImage{
+                border-bottom-left-radius: 20px;
+                border-top-left-radius: 20px;
+            }
+            .burger{
+                border-bottom-left-radius: 20px;
+                border-top-left-radius: 20px;
+                border-right: solid;
+                width: 120px;
+                height: 120px;
+            }
+            .card-title2{
+               font-size: 24px;
+               padding-left: 5px;
+               display: flex;
+               justify-content: center;
+            }
+            .card-text2{
+                display: flex;
+                justify-content: space-between;
+                margin-top: auto;
+                font-size: 20px;
+            }
+            .fullCard{
+                display: flex;
+                align-items: center;
+            }
+            .totalBar{
+                background-color: #EFD896;
+                margin: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                border-radius: 14px;
+                font-size: 24px;
+            }
+            .paybtn{
+                display: flex;
+                justify-content: flex-end;
+            }
+            .paynow{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                font-size: 32px;
+                color: white;
+                border-top-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+                width: 160px;
+                height: 40px;
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
