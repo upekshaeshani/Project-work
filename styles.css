@@ -22,6 +22,7 @@
   .menuRow2{
     font-size: 16px;
   }
+
 }
 html{
     background-color: #53390A;
@@ -294,12 +295,12 @@ html{
                 border-top-color: black !important;
             }
             .cart-list{
-                width: 100%;
+                width: fit-content;
             }
             .scardContent{
                 display: flex;
-                margin: 10px;
-                width: 385px;
+                margin: 20px;
+                width: 370px;
                 height: 120px;
             }
             .scardDetails{
@@ -307,8 +308,10 @@ html{
                 border-top-right-radius: 20px;
                 border-bottom-right-radius: 20px;
                 display: flex;
+                justify-content: space-between;
                 flex-direction: row;
                 padding: 10px;
+                width: 100%;
             }
             .qty-bar2{
                 display: flex;
