@@ -13,11 +13,12 @@
     gap: 20px;
   }
 
-  /* ensure each card fills its grid cell */
   .catagories .card {
     margin: 10px;
-    width: 100%;
   }
+}
+html{
+    background-color: #53390A;
 }
             .whole{
                 background-color: #53390A;
