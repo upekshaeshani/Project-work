@@ -16,6 +16,12 @@
   .catagories .card {
     margin: 10px;
   }
+  .menuRow1{
+    font-size: 16px;
+  }
+  .menuRow2{
+    font-size: 16px;
+  }
 }
 html{
     background-color: #53390A;
