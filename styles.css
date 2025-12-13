@@ -1,7 +1,7 @@
             @import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
 .catagories {
   display: grid;
-  gap: 14px;
+  gap: 10px;
   grid-template-columns: repeat(2, 2fr); /* mobile: 2 columns */
   margin: 10px;
 }
