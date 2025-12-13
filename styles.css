@@ -300,7 +300,7 @@ html{
             .scardContent{
                 display: flex;
                 margin: 20px;
-                width: 370px;
+                width: 355px;
                 height: 120px;
             }
             .scardDetails{
@@ -330,7 +330,7 @@ html{
                 height: 120px;
             }
             .card-title2{
-               font-size: 24px;
+               font-size: 20px;
                padding-left: 5px;
                display: flex;
                justify-content: center;
@@ -339,7 +339,7 @@ html{
                 display: flex;
                 justify-content: space-between;
                 margin-top: auto;
-                font-size: 20px;
+                font-size: 18px;
             }
             .fullCard{
                 display: flex;
