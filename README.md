@@ -71,10 +71,10 @@ https://www.figma.com/proto/mSclElp7ZoJ9TbqaBcsnJS/Untitled?node-id=1-3&p=f&t=RJ
 
 Live Demo (GitHub Pages)
 Menu Page:
-https://upekshaeshani.github.io/
+https://upekshaeshani.github.io/project_work/
 
 Item Description Page:
-https://upekshaeshani.github.io/description.html
+https://upekshaeshani.github.io/project_work/description.html
 
 Shopping Cart Page:
 https://upekshaeshani.github.io/shopping_cart.html
